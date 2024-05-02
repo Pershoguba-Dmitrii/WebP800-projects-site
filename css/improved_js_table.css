@@ -1,0 +1,21 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.myTable{
+  background-color:#ffe4e3 ;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.myTable thead{
+  background-color: #ff7f74;
+}
+.myTable th, .myTable td{
+  padding: 5px;
+  border: 1px solid black;
+}
+.totalPrice{
+  font-weight: 900;
+  font-size: 20px;
+}
