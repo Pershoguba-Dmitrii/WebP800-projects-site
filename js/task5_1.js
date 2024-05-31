@@ -3,13 +3,15 @@ const burgerBtn = document.querySelector(".burger-btn");
 const burgerMenu = document.querySelector(".burger-menu");
 
 
-burgerMenu.style.left = "calc(50% - 600px)";
+burgerMenu.style.left = "calc(50% - 605px)";
+burgerMenu.style.width = "405px";
+burgerMenu.style.height = "905px";
 
 headerBtn.addEventListener('click', () => {
   burgerMenu.animate([
     {
       opacity: "0.4",
-      left: "calc(50% - 600px)",
+      left: "calc(50% - 605px)",
     },
     {
       opacity: "1",
@@ -32,7 +34,7 @@ burgerBtn.addEventListener('click', () => {
     },
     {
       opacity: "0.4",
-      left: "calc(50% - 600px)",
+      left: "calc(50% - 605px)",
     },
   ],
     {
